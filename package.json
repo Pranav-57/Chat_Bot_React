@@ -1,0 +1,52 @@
+{
+  "name": "youtube",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:8000/",
+  "dependencies": {
+    "@kotlia/react-i18n-auto": "^1.0.1",
+    "@material-ui/core": "^4.12.3",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "audio-react-recorder": "^1.0.4",
+    "axios": "^0.23.0",
+    "google-translate-api": "^2.3.0",
+    "react": "^17.0.1",
+    "react-blabla": "0.0.14",
+    "react-chatbot-kit": "^1.1.20",
+    "react-dom": "^17.0.1",
+    "react-hook-speech-to-text": "^0.8.0",
+    "react-node-google-translate": "^1.0.2",
+    "react-scripts": "4.0.0",
+    "react-voice-recorder": "^2.1.0",
+    "tmirob-message-box": "^1.4.0",
+    "translate-google": "^1.5.0",
+    "translate-google-api": "^1.0.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
